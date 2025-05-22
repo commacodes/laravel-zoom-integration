@@ -3,11 +3,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-باكدج Laravel بسيطة وسهلة للاندماج مع Zoom Meeting API. بتسمحلك تعرض ميتنجات Zoom داخل موقعك (داخل iframe)، وكمان تحمل تسجيلات الميتنجات تلقائيًا لمسار معين عند الانتهاء.
+باكدج Laravel بسيطة وسهلة للاندماج مع Zoom Meeting API. بتسمحلك تعرض أجتماعات Zoom داخل موقعك (داخل iframe)، وكمان تحمل تسجيلات الأجتماعات تلقائيًا لمسار معين عند الانتهاء.
 
 ## المميزات
 
-- عرض ميتنج Zoom داخل موقع Laravel باستخدام iframe.
+- عرض اجتماع Zoom داخل موقع Laravel باستخدام iframe.
 - تحميل تلقائي لتسجيلات الميتنجات على السيرفر.
 - أوامر Artisan جاهزة لتحميل التسجيلات.
 - تكامل سلس مع Laravel 12.
@@ -75,19 +75,6 @@ php artisan zoom:download-recordings
 
 يمكنك إضافة هذا الأمر في الـ cron job ليعمل تلقائيًا.
 
-## تطوير الباكدج
-
-للتعديل أو الإضافة:
-
-```
-git clone https://github.com/USERNAME/laravel-zoom-integration.git
-cd laravel-zoom-integration
-composer install
-```
-
-## الدعم والمساهمة
-
-إذا واجهتك أي مشكلة أو لديك اقتراح، افتح issue أو PR على GitHub.
 
 ## الترخيص
 
