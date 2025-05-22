@@ -1,0 +1,24 @@
+{
+    "name": "commacode/laravel-zoom-integration",
+    "description": "Zoom Meeting Integration for Laravel with automatic recording download and embedded viewing.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Commacode\\ZoomIntegration\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Commacode\\ZoomIntegration\\Providers\\ZoomServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
